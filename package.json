@@ -1,0 +1,40 @@
+{
+  "name": "theamericanwayoflife",
+  "version": "1.0.0",
+  "description": "An app that encourages our slothlike way of life by promoting the consumption of burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon burger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masterprocess/theAmericanWayOfLife.git"
+  },
+  "keywords": [
+    "burgers",
+    "are",
+    "gross",
+    "servers",
+    "are",
+    "ornery",
+    "goats",
+    "tbh"
+  ],
+  "author": "Christopher Rackley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Masterprocess/theAmericanWayOfLife/issues"
+  },
+  "homepage": "https://github.com/Masterprocess/theAmericanWayOfLife#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "fs": "0.0.1-security",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
+    "path": "^0.12.7",
+    "sequelize": "^4.8.0"
+  }
+}
